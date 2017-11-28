@@ -1,0 +1,25 @@
+访问github慢的解决方法：
+
+1、sudo vi /etc/hosts
+
+2、打开 http://tool.chinaz.com/dns ,这是一个查询域名映射关系的工具
+
+3、查询 github.global.ssl.fastly.net 和 assets-cdn.github.com 两个地址
+
+4、多查几次，选择一个稳定，延迟较低的 ip 按如下方式添加到host文件
+
+5、保存文件，重新打开浏览器，起飞。
+
+# For example:
+#
+#      102.54.94.97     rhino.acme.com          # source server
+#       38.25.63.10     x.acme.com              # x client host
+
+# localhost name resolution is handled within DNS itself.
+#   127.0.0.1       localhost
+#   ::1             localhost
+
+# github
+192.30.253.112 assets-cdn.github.com
+151.101.88.249 github.global.ssl.fastly.net
+===========================================

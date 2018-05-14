@@ -4,7 +4,24 @@
 
 2、打开 http://tool.chinaz.com/dns ,这是一个查询域名映射关系的工具
 
-3、查询 github.global.ssl.fastly.net 和 assets-cdn.github.com 两个地址
+3、查询
+github.global.ssl.fastly.net
+assets-cdn.github.com
+assets-cdn.github.com
+assets-cdn.github.com
+documentcloud.github.com
+github.com
+github.com
+gist.github.com
+help.github.com
+nodeload.github.com
+raw.github.com
+status.github.com
+training.github.com
+www.github.com
+github.global.ssl.fastly.net
+avatars0.githubusercontent.com
+avatars1.githubusercontent.com
 
 4、多查几次，选择一个稳定，延迟较低的 ip 按如下方式添加到host文件
 

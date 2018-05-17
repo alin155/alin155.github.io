@@ -715,6 +715,20 @@ background: #ffc400;border: 1px solid #fff;}
         width: 20px;
         height: 20px;
     }
+    .banner-caption h1 {
+        font-size: 26px;
+    }
+    .banner-caption h2 {
+        font-size: 24px;
+    }
+    button.cta-button {
+        min-width: 120px;
+        padding: 10px;
+    }
+    .col-xs-6 {
+        padding-left: 13px;
+        padding-right: 13px;
+    }
 }
 
 @media (min-width:768px) {

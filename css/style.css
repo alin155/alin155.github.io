@@ -1072,3 +1072,135 @@ margin: 2px 5px 0;}
 .section-headlines > div {
   line-height: 1.8;
 }
+
+
+
+/*音频*/
+.module-title {
+    width: 100%;
+    text-align: center;
+    font-size: 36px;
+    color: rgba(0,0,0,.65);
+    margin-bottom: 80px
+}
+
+.module-title.m-b-30 {
+    margin-bottom: 30px
+}
+.home-record>div {
+    padding: 15px
+}
+
+.home-record .recocd-item {
+    border: 1px solid #e0e0e0;
+    border-radius: 3px;
+    height: 140px;
+    display: flex;
+    flex-direction: row
+}
+
+.home-record .recocd-item .title {
+    width: 200px;
+    height: 100%;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+.home-record .recocd-item .title.bg-1 {
+    background-image: url(../images/try-1.svg)
+}
+
+.home-record .recocd-item .title.bg-2 {
+    background-image: url(../images/try-2.svg)
+}
+
+.home-record .recocd-item .title.bg-3 {
+    background-image: url(../images/try-3.svg)
+}
+
+.home-record .recocd-item .title.bg-4 {
+    background-image: url(../images/try-4.svg)
+}
+
+.home-record .recocd-item .content {
+    flex: 1;
+    display: flex;
+    flex-direction: column
+}
+
+.home-record .recocd-item .content .info {
+    color: rgba(0,0,0,.43);
+    font-size: 14px;
+    flex: 1;
+    padding: 10px 10px 0 10px
+}
+
+.home-record .recocd-item .content .audio-el {
+    height: 40px
+}
+
+.home-record .recocd-item .content .mejs__container {
+    background-color: transparent;
+    width: auto!important
+}
+
+.home-record .recocd-item .content .mejs__container .mejs__horizontal-volume-slider,.home-record .recocd-item .content .mejs__container .mejs__time,.home-record .recocd-item .content .mejs__container .mejs__volume-button {
+    display: none
+}
+
+.home-record .recocd-item .content .mejs__container .mejs__controls:not([style*="display: none"]) {
+    background: 0 0
+}
+
+.home-record .recocd-item .content .mejs__container .mejs__time-total {
+    background: #f2f2f2;
+    border-radius: 5px
+}
+
+.home-record .recocd-item .content .mejs__container .mejs__time-current {
+    border-radius: 5px;
+    background: #50c3fc
+}
+
+.home-record .recocd-item .content .mejs__container .mejs__time-handle {
+    background: 0 0!important
+}
+
+.home-record .recocd-item .content .mejs__container .mejs__playpause-button {
+    float: right
+}
+
+.home-record .recocd-item .content .mejs__container .mejs__play>button {
+    background: transparent url(../images/play.png) no-repeat;
+    background-position: 7px 7px;
+    background-size: 50%
+}
+
+.home-record .recocd-item .content .mejs__container .mejs__pause>button {
+    background: transparent url(../images/pause.png) no-repeat;
+    background-position: 7px 7px;
+    background-size: 50%
+}
+
+.home-record .recocd-item .content .mejs__container .mejs__button>button {
+    background-color: #50c3fc;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    margin: 5px 0
+}
+
+.home-record .recocd-item {
+    height: 160px
+}
+
+/*.home-record .recocd-item .title {
+    width: 90px
+}*/
